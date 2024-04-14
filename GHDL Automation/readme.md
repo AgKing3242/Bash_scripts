@@ -1,6 +1,6 @@
-## Dependencies Required:
-# 1. GHDL
-# 2. GtkWave
+# Dependencies Required:
+## 1. GHDL
+## 2. GtkWave
 
 This is a ghdl automation script for vhdl code simulation and testing. 
 Just run the script with the code file names as the arguements without the .vhd extension. 
