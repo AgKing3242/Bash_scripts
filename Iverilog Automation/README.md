@@ -1,4 +1,4 @@
-## BASH Script for automating iverilog and gtkwave based verilog simulation and testing 
+## BASH Script for automating icarus-verilog and gtkwave based Verilog HDL simulation and testing 
 ## Dependencies Required:
 
 ### 1. Icarus Verilog
