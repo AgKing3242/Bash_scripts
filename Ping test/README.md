@@ -1,4 +1,4 @@
-## Ping Test script for identifying the alive networks.
+## Ping Test script for identifying the alive networks in a network.
 
 ## Dependencies required:
 ### net-tools
