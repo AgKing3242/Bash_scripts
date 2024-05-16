@@ -1,1 +1,1 @@
-## Some Linux Bash scripts for automating day-to-day tasks.
+## Task automation scripts in Bash for Linux.
