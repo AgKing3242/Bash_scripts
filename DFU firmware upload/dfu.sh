@@ -15,11 +15,15 @@ elif [ "$key1" == "upload" ]; then
 			echo "Please specify the path to the file."
 		else
 			sudo dfu-util -a "$alt_value" -i "$int_value" -s 0x08000000:leave -D $key3
-   			echo "Firmware flashed succesfully!"
+   			if [ "$?" -eq 0 ]; then
+				echo "Firmware flashed sucessfully!"
+			fi
 		fi
 	else
 		sudo dfu-util -a "$alt_value" -i "$int_value" -s 0x08000000:leave -D ~/Arduino/"$key2"/build/"STMicroelectronics.stm32.GenF4"/"$key2".ino.bin
-		echo "Firmware flashed succesfully!"
+		if [ "$?" -eq 0 ]; then
+				echo "Firmware flashed sucessfully!"
+		fi
 	fi
 else
 	echo "Invalid command."
